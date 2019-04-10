@@ -1,0 +1,183 @@
+@charset "utf-8";
+
+/*폰트*/
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700,900&amp;subset=korean"rel="stylesheet" > \
+/* font-family: 'Noto Sans KR', sans-serif; */
+
+/* 레이아웃 */
+#header {
+    height: 100px;
+    width: 100%;
+}
+
+#content{
+  width: 100%;
+}
+#footer {
+    width: 100%;
+    position: absolute;
+    top: 2500px;
+    background: #eff2f7;
+}
+
+/*가운데*/
+.container {
+    position: relative;
+    width: 1800px;
+    margin: 0 auto;
+}
+
+/* 헤더 */
+.header h1 {
+    float: left;
+    position: relative;
+    top: 50px;
+}
+
+.header h1 img {
+    width: 110px;
+    height: auto;
+}
+
+.header h1 em {
+    padding: 8px 8px 8px 0;
+    display: inline-block;
+}
+
+.nav {
+    position: relative;
+    width: 874px;
+    margin: 0 auto;
+    float: left;
+    left: 220px;
+}
+
+.nav li {
+    float: left;
+    text-align: center;
+    margin-left: 95px;
+    font-size: 20px;
+    line-height: 170px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+}
+
+.nav li:hover {
+    text-decoration: underline;
+}
+
+.log {
+    position: relative;
+    top: 70px;
+    float: right;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+}
+
+.log img {
+    width: 20px;
+    height: auto;
+}
+
+.log li {
+    float: left;
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+/*content1*/
+.menu_bar{position: absolute; top: 170px; left:0; width: 10%;}
+.menu_bar .menu{}
+.menu_bar .menu_all{}
+.menu_bar .menu_filter{}
+.menu_bar .menu_color{}
+.menu_bar .menu_price{}
+.menu_bar .clear{}
+.item_menu{float: right; width: 85%;}
+.item_menu .items{}
+.item_menu .items h2{}
+.item_menu .items ul{overflow: hidden;}
+.item_menu .items ul li.model{width: 30%; float: left; padding:50px 50px 0 0;}
+.item_menu .items ul li a{}
+.item_menu .items ul li a img{}
+.item_menu .items ul li ul{}
+.item_menu .items ul li ul li{}
+.item_menu .items ul li ul li span{float: right;}
+
+
+
+/*footer*/
+.footer {
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+.footer h1 {
+    float: left;
+}
+
+.nav2 {
+    float: left;
+    padding-left: 530px;
+}
+
+.nav2 ul {
+    overflow: hidden;
+}
+
+.nav2 ul li {
+    float: left;
+    font-size: 16px;
+    margin-left: 40px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.nav2 ul li:first-child {
+    margin-left: 0;
+}
+
+.icon {
+    float: right;
+}
+
+.icon ul {
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.icon ul li {
+    float: left;
+    margin-left: 20px;
+}
+
+.footer h1 img {
+    width: 110px;
+    height: auto;
+}
+
+.icon img {
+    width: 20px;
+    height: auto;
+}
+
+.fb img {
+    width: 10px;
+    height: auto;
+}
+
+.ft {
+    float: left;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.ft ul {
+    overflow: hidden;
+}
+
+.ft ul li {
+    float: left;
+    font-weight: 500;
+    margin-right: 20px;
+}
